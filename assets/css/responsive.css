@@ -1,0 +1,681 @@
+@media (max-width: 992px){
+.benefit-form{
+	background: url('../img/benefit.jpg');
+	/*background-size: cover;*/
+	background-size: 105% 98%;
+
+	background-position: left;
+	background-repeat: no-repeat;
+	margin: 20px 0;
+	padding: 70px 0;
+
+}
+/*
+===========================================
+	TOP NAVBAR SECTION START
+===========================================
+*/
+#toggle {
+	outline: none;
+	border: none;
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 3px;
+}
+#toggle:hover div{
+	width: 100% !important;
+}
+#toggle div{
+	width: 100%;
+	height: 2px;
+	margin: 4px 0;
+	background: #fff;
+}
+#toggle div:nth-child(1){
+	width: 60%;
+}
+#toggle div:nth-child(2){
+	width: 80%;
+}
+#toggle div:nth-child(3){
+	width: 100%;
+}
+.top-navbar-section{
+	position: relative !important;
+}
+#my-nav{
+	position: fixed;
+	width:350px;
+	height: 100vh;
+	background: #17446e;
+	left: -100%;
+	top: 0;
+	z-index: 100;
+	padding-right: 0;
+	overflow-y: hidden;
+
+}
+.nav-md-header{
+	color: #fff;
+	margin-top: 30px;
+	border-bottom: 1px solid #555;
+}
+.nav-md-header h4{
+	font-size: 24px;
+}
+.nav-md-header span{
+	font-size: 40px;
+	cursor: pointer;
+	font-weight: 300;
+}
+#my-nav ul{
+	padding: 0 20px;
+	margin-right: 0 !important;
+	margin-top: 40px;
+
+}
+#my-nav ul li{
+
+	padding: 0 !important;
+}
+#my-nav ul li a{
+	margin: 0 !important;
+	padding: 10px;
+	border-bottom: 1px solid #555;
+	display: block;
+	text-align: center;
+}
+
+.top-navbar-btn{
+	text-align: center;
+	margin-top: 20px;
+}
+/*
+===========================================
+	TOP NAVBAR SECTION END
+===========================================
+*/
+
+
+
+
+
+	/*
+===========================================
+	EDWARDS SECTION START
+===========================================
+*/
+
+.edwards-img img{
+	width: 100%;
+}
+/*
+===========================================
+	EDWARDS SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	SMART CONTRACT SECTION START
+===========================================
+*/
+.powered-section .powered-content .section-title h2,
+.smart-contract-content h2{
+	font-size: 22px;
+
+}
+
+
+/*
+===========================================
+	SMART CONTRACT SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	USE CASES SECTION START 
+===========================================
+*/
+
+.use-case-content p{
+
+	line-height: 1.4;
+}
+
+
+/*
+===========================================
+	USE CASES SECTION END 
+===========================================
+*/
+
+/*
+===========================================
+	BENEFIT SECTION START
+===========================================
+*/
+
+.benefit-section h1{
+	font-size: 26px;
+}
+.benefit-section .benefit-icon{
+	width: 130px;
+	height: 130px;
+	margin: 20px auto;
+	border-radius: 50%;
+	background: #f5f8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.benefit-section .benefit-content p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #17446e;
+}
+
+/*
+===========================================
+	BENEFIT SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	INTRODUCTORY SECTION START
+===========================================
+*/
+.intdroductory-section{
+	margin: 130px 0;
+}
+.intdroductory-section .intdroductory-content{
+	padding: 40px;
+
+}
+.intdroductory-section .intdroductory-content h1{
+	font-size: 26px;
+
+	margin: 30px 0;
+	margin-bottom: 40px;
+
+}
+
+.intdroductory-section .intdroductory-content .intdroductory-btn{
+	margin: 20px 0;
+}
+
+/*
+===========================================
+	INTRODUCTORY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	FOOTER SECTION START
+===========================================
+*/
+
+.ft-btm-text  p a{
+	font-size: 13px;
+}
+
+/*
+===========================================
+	FOOTER SECTION END
+===========================================
+*/
+.benefit-section .benefit-img{
+	position: absolute;
+	left: 0;
+	top: -100px;
+}
+.benefit-section .benefit-img img{
+	width: 80px;
+}
+
+
+#contact-img{
+	position: absolute; 
+	right: -50px; 
+	bottom: -50px; 
+	z-index: -10;
+}
+#contact-img img{
+	width: 150px;
+}
+
+
+
+}
+
+@media (max-width: 767px){
+.header-img img{
+	width: 120%;
+}
+
+.store-edwards{
+
+	padding-top:20px;
+
+.stored,
+.edwards-img,
+.smart-img,
+.use-case-img,
+.powered-img {
+	margin: 30px 0;
+}
+
+.stored img,
+.edwards-img img,
+.smart-img img,
+.use-case-img img,
+.powered-img img{
+	width: 100%;
+}
+/*
+===========================================
+	INTRODUCTORY SECTION START
+===========================================
+*/
+
+.intdroductory-section{
+	margin: 100px 0;
+}
+.intdroductory-section .intdroductory-content{
+	padding: 30px;
+
+}
+.intdroductory-section .intdroductory-content h1{
+	font-size: 22px;
+
+	margin: 20px 0;
+	margin-bottom: 40px;
+
+}
+
+.intdroductory-section .intdroductory-content .intdroductory-btn{
+	margin: 20px 0;
+}
+.intdroductory-section .intdroductory-content .intdroductory-btn a{
+	padding: 10px 25px;
+}
+
+/*
+===========================================
+	INTRODUCTORY SECTION END
+===========================================
+*/
+}
+
+@media (max-width: 575px){
+#my-nav{
+	position: fixed;
+	width:100%;
+	height: 100vh;
+	background: #17446e;
+	left: -100%;
+	top: 0;
+	z-index: 100;
+	padding-right: 0;
+	overflow-y: hidden;
+
+}
+
+/*
+===========================================
+	HEADER SECTION START
+===========================================
+*/
+.header-section{
+	margin: 20px 0;
+	padding: 10px;
+
+}
+
+
+.header-section .header-content p{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.header-section .header-content .header-btns{
+	margin-top: 30px;
+	display: inline-block;
+}
+.header-section .header-content .header-btns a:first-child{
+	
+	padding: 10px 30px;
+	display: block;
+	margin: 20px 0;
+	
+}
+.header-section .header-content .header-btns a:first-child:hover{
+	background: #00fefe;
+}
+.header-section .header-content .header-btns a:last-child{
+	display: block;
+	margin: 30px 0;
+}
+
+/*
+===========================================
+	HEADER SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	CREATIVITY SECTION START
+===========================================
+*/
+.creativity-content{
+	margin: 10px 0;
+
+}
+
+.creativity-content h2{
+	font-size: 22px;
+
+
+}
+
+.creativity-content  p{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/*
+===========================================
+	CREATIVITY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	POWERED BY SECTION START
+===========================================
+*/
+.powered-section{
+	margin: 80px 0;
+
+}
+.powered-section .powered-content .section-title h2{
+	font-size: 22px;
+	font-family: lobster;
+
+}
+.powered-section .powered-content p{
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 1.5;
+}
+/*
+===========================================
+	POWERED BY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	STORED SECTION START
+===========================================
+*/
+.stored-section{
+	margin: 80px 0;
+}
+
+.stored-content h2{
+	font-size: 22px;
+	font-family: lobster;
+	color: #17446e;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*
+===========================================
+	STORED SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	EDWARDS SECTION START
+===========================================
+*/
+.edwards-section{
+	margin: 60px 0;
+}
+.edwards-content p{
+	font-size: 14px;
+
+}
+
+/*
+===========================================
+	EDWARDS SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	SMART CONTRACT SECTION START
+===========================================
+*/
+.smart-contract{
+	margin: 50px 0;
+	padding: 10px 0;
+}
+
+.smart-contract-content h2{
+	font-size: 20px;
+}
+
+/*
+===========================================
+	SMART CONTRACT SECTION END
+===========================================
+*/
+/*
+===========================================
+	USE CASES SECTION START 
+===========================================
+*/
+.use-case-section{
+	margin: 50px 0;
+	padding: 10px 0;
+}
+
+
+/*
+===========================================
+	USE CASES SECTION END 
+===========================================
+*/
+/*
+===========================================
+	BENEFIT SECTION START
+===========================================
+*/
+
+.benefit-section h1{
+	font-size: 22px;
+}
+.benefit-section .benefit-icon{
+	width: 120px;
+	height: 120px;
+
+}
+.benefit-section .benefit-content p{
+	font-size: 14px;
+
+}
+/*
+===========================================
+	BENEFIT SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	CONTACT SECTION START
+===========================================
+*/
+.contact-secton{
+	margin: 60px 0;
+
+}
+#contact-form{
+	padding: 20px;
+	box-shadow: 10px 10px 60px 10px  lightgrey !important;
+
+}
+
+.contact-secton .contact-form h1{
+	font-size: 22px;
+
+}
+.contact-secton .contact-form .form-group label{
+
+	font-size: 12px;
+
+}
+.contact-secton .contact-form .form-group input{
+	height: 40px;
+}
+.contact-secton .contact-form .form-group input:focus{
+	border-color: #6db7fd;
+}
+.contact-secton .contact-form  button{
+	padding: 10px 40px;
+	font-size: 17px;
+
+}
+.contact-secton .contact-form .contact-btn{
+	margin-top: 0px ;
+	margin-bottom: 20px;
+}
+
+/*
+===========================================
+	CONTACT SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	INTRODUCTORY SECTION START
+===========================================
+*/
+.intdroductory-section{
+	margin: 140px 0;
+}
+.intdroductory-section .intdroductory-content{
+	padding: 30px 20px;
+	border-radius: 30px;
+	background: #fff;
+	box-shadow: 10px 10px 50px 20px lightgrey;
+}
+.intdroductory-section .intdroductory-content h1{
+	font-size: 17px;
+	color: #17446e;
+	margin: 10px 0;
+
+}
+
+.intdroductory-section .intdroductory-content .intdroductory-btn{
+	margin: 30px 0;
+	text-align: center;
+}
+
+/*
+===========================================
+	INTRODUCTORY SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	FOOTER SECTION START
+===========================================
+*/
+
+
+.footer-section  .footer-content .ft-content-1 ul li a{
+	font-size: 14px;
+	margin-right: 15px;
+	color: grey;
+}
+.ft-btm-text ul li a i,
+.footer-section  .footer-content .ft-content-1 ul li a i{
+	margin-right: 3px;
+	color: #518be2;
+}
+.footer-section .ft-content-2{
+	padding: 0;
+}
+.footer-section .ft-content-2 .alert{
+	padding-left: 15px;
+
+}
+
+.ft-content-3 p{
+	font-size: 14px;
+	color: grey;
+}
+.ft-btm-text  p a{
+	font-size: 14px;
+	justify-content: center;
+
+}
+
+/*
+===========================================
+	FOOTER SECTION END
+===========================================
+*/
+
+.benefit-section .benefit-img{
+	position: absolute;
+	left: 0;
+	top: -100px;
+}
+.benefit-section .benefit-img img{
+	width: 50px;
+}
+
+
+#contact-img{
+	position: absolute; 
+	right: -30px; 
+	bottom: -30px; 
+	z-index: -10;
+}
+#contact-img img{
+	width: 100px;
+}
+
+
+.creativity-content:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 8%;
+	transform: translate(-50%);
+	width: 85%;
+	height: 100%;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0 0 30px -5px lightgrey;
+	z-index: -20;
+	border-radius: 30px;
+}
+
+
+
+}
